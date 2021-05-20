@@ -1,0 +1,101 @@
+Inro___________
+
+1.
+install node 32 bit.
+
+    write code in cmd prompt :
+
+	npm rm -g create-react-app
+	npm install -g create-react-app
+	npx create-react-app my-app
+
+__Components__
+
+2.
+  counter-app created.
+  npm i bootstrap@4.1.1
+
+3.
+  creating component.
+
+5.
+  setting variable
+
+6.
+  Here we setting attribute like className and style
+
+7.
+  Rendering class dynamically
+
+8.
+  Here we are rendering a list of element of an array.
+  when we use map function we must use a key value.
+
+9.
+  conditional rendering in truthy way or function way.
+
+10.
+  using handleEvents
+
+11.
+  for binding an eventHandler we can either use "Constructor-Approach" or "Arrow-methods".
+
+12.
+  updating the state by setState
+
+14.
+  when we pass argument with our events we can use inline function.
+
+
+____________Composing Components___________
+
+2.
+  we are using the same component multiple time
+
+3. Every React component has a property called prop.
+   its basically an object.
+   it include all the attribute that we set in counters component.
+
+4_ HERE we are using children property.
+
+5_ installing the "React App Developer".
+
+6_ props is the data that we give to component.
+   state is the data that local to that component.
+
+   React doesnot allow us to change the value of props.
+
+7_ Here we are raising onDelete event in counter module
+   and deleting the needed counter element in Counters module by sending the element in props.
+
+8_ here we are deleting the id by sending id with props. and
+   at the same time i am sending object not any property.
+   so i am replacing the sending of properties by sending object directly.
+
+9_ in single source of truth, we need to remove the local state in our counter component,
+    and have a single source of truth.
+
+10__ Here we are removing the local state.
+     A controlled component doesnot have its own local state, it recives all the data via props.
+     and raised an event when ever data needs to be changed. so this components entirely controls by its parents.
+
+11_ introducing Navbar component and setting all as this conditions
+
+12_ shifting the state one state up.
+
+13_ introducing SFC (stateless functional component),
+    here we dont use {this}
+
+14_ here we are destructuring the argument
+
+15_ life cycle Hooks ( cc)
+    
+16_ Mounting Phase
+
+4.17_ updating phase
+
+4.18_ unmounting phase
+
+4.20_ introducing decrement options
+
+_________________________________________
